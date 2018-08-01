@@ -1,0 +1,87 @@
+ * {
+	font-family: 'Press Start 2P', cursive;
+}
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.brand:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.img-container {
+    float: left;
+    width: 50%;
+}
+
+.logo-images img {
+	width: 100px;
+	height: 100px;
+}
+
+.logo-images img:hover {
+	transform: scale(1.1);
+}
+
+.clearfix {
+	background-color: lightgray;
+}
+
+#rightside {
+	background-color: info;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.jumbotron {
+	float: left;
+	width: 50%;
+}
+
+.jumbotron img {
+	width: 100px;
+	height: 200px;
+}
+
+.twitter-timeline {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+
+.signup {
+	display: block;
+	position: relative;
+	width: 300px;
+}
+
+.logo-images {
+	display: block;
+	position: relative;
+}
+
+/*.signupsheet {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}*/

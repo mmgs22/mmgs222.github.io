@@ -1,0 +1,103 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.brand:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.lead:hover {
+  transform: scale(1.02);
+  color: #47A0B5;
+}
+
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+}
+
+h1:hover {
+	transform: scale(1.01)
+}
+
+.photo-buttons {
+	margin: auto;
+	width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+
+.row img:hover {
+	transform: scale(1.1);
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin: auto;
+
+}
+
+.column img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+.column img:hover {
+	transform: scale(1.1);
+}
+
+/*.grid-images:hover {
+	transform: scale(1.1);
+}
+*/
+a img{
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+ /*Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

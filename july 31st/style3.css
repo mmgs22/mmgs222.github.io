@@ -1,0 +1,82 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.brand:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.facepic {
+	background-image: url(facepic.jpg);
+	background-size: cover;
+	display: block;
+	box-shadow: 10px 10px;
+}
+
+.facepic:hover {
+	/*transform: scale(1.08);*/
+	box-shadow: 10px 10px #47A0B5;
+	background-image: url(supa.jpg);
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #ecf0f1;
+    height: 640px;
+}
+
+.jumbotron img{
+	display: block;
+	box-shadow: 10px 10px;
+}
+
+.jumbotron img:hover {
+	transform: scale(1.08);
+	box-shadow: 10px 10px #47A0B5;
+}
+
+.jumbotron p {
+	word-wrap: normal; width: 900px;
+	margin-left: 450px;
+	text-align: justify;
+	font-size: .8em
+}
+
+.jumbotron p:hover {
+	transform: scale(1.05);
+	color: #47A0B5;
+}
+
+h1:hover {
+	transform: scale(1.05);
+	color: #47A0B5;
+}
+
+h3:hover {
+	transform: scale(1.05);
+	color: #47A0B5;
+}
+
+h2:hover {
+	transform: scale(1.05);
+	color: #47A0B5;
+}
+
+.twitter {
+	height: 500px;
+}
+
+.playlist {
+	text-align: center;
+}
+
+.favs:hover {
+	cursor: pointer;
+}
+
+
